@@ -42,3 +42,56 @@ Includes a minimal interactive UI built with **Streamlit**:
 
 To run this App
 streamlit run app.py
+
+Project Structure
+
+SkillBuilderAI/
+│
+├── app.py                               # Streamlit UI
+├── main.py                              # LangGraph setup
+├── plan_agent.py                        # Milestone generation logic
+├── tool_agent.py                        # Resource generator
+├── reflection_agent.py                  # Plan evaluator
+├── requirements.txt
+└── README.md
+
+Installation
+
+Clone the repository:
+
+Create and activate a virtual environment:
+python -m venv venv
+venv\Scripts\activate  # On Windows
+
+Install dependencies:
+pip install -r requirements.txt
+Run the app:
+
+streamlit run app.py
+
+ Features
+- Agentic workflow using LangGraph
+
+- Real-world use case (learning path planning)
+
+- Modular and scalable design
+
+- Interactive frontend (Streamlit)
+
+- Easy to extend with OpenAI, Google Search, or other tools
+
+ Future Enhancements
+ Add OpenAI/Claude APIs for real language processing
+
+ Integrate YouTube or GitHub search for live resource recommendations
+
+ Estimate time-to-learn and effort per milestone
+
+ Add memory and feedback loops for iterative planning
+
+Coming Soon: Hosted version on HuggingFace or Streamlit Cloud
+
+🙌 Acknowledgements
+Built by Bhargav Gajjala
+Inspired by agent-based design, LangGraph, and the power of structured AI reasoning.
+
