@@ -91,7 +91,7 @@ streamlit run app.py
 
 Coming Soon: Hosted version on HuggingFace or Streamlit Cloud
 
-🙌 Acknowledgements
+Acknowledgements
 Built by Bhargav Gajjala
 Inspired by agent-based design, LangGraph, and the power of structured AI reasoning.
 
