@@ -1,7 +1,4 @@
-# SkillBuilder_AI
-Agentic workflow Implementation using Langgraph
-
-# killBuilder AI – Personalized Learning Path Generator (Agentic Workflow with LangGraph)
+# SkillBuilder AI – Personalized Learning Path Generator (Agentic Workflow with LangGraph)
 
 **SkillBuilder AI** is an intelligent assistant that builds customized learning roadmaps for users based on their career goals. Powered by an agentic workflow using [LangGraph](https://docs.langgraph.dev/), it demonstrates how multiple agents can collaborate to plan, execute, and reflect — simulating human-like reasoning.
 
